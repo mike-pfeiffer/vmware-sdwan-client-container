@@ -35,7 +35,7 @@ machine.
 
 ```shell
 git clone https://github.com/mike-pfeiffer/vmware-sdwan-client-container.git
-cd sdwan-client-container/
+cd vmware-sdwan-client-container/
 ```
 
 ## Build
