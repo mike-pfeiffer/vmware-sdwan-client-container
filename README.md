@@ -34,7 +34,7 @@ Clone the repository and change directory to the repository on the local
 machine.
 
 ```shell
-git clone git@gitlab.eng.vmware.com:sebu-tpm-labs/sdwan-client-container.git
+git clone https://github.com/mike-pfeiffer/vmware-sdwan-client-container.git
 cd sdwan-client-container/
 ```
 
