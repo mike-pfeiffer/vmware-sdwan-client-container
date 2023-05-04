@@ -70,7 +70,7 @@ You can interact directly with the running container by sending sdwan-client-cli
 commands (or other bash commands) using the exec function.
 
 ```shell
-sudo docker container exec -it sdwan-client-test sdwan-client-cli -v
+sudo docker container exec -it cc-1-1.25.4 sdwan-client-cli -v
 ```
 
 ## Authenticate the Client Connector to the fabric
@@ -78,7 +78,7 @@ sudo docker container exec -it sdwan-client-test sdwan-client-cli -v
 This is how you authenticate the Client Connector to the fabric.
 
 ```shell
-sudo docker container exec -it sdwan-client-test sdwan-client-cli --login {{ SECURITY_TOKEN }} 
+sudo docker container exec -it cc-1-1.25.4 sdwan-client-cli --login {{ SECURITY_TOKEN }}
 ```
 
 ## Which Interface Do You Use in the Orchestrator?
